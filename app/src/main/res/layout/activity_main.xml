@@ -13,12 +13,12 @@
         android:padding="32dp">
 
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="â¡ â¡ â¡"
             android:textColor="#ffb6c1"
             android:textSize="28sp"
             android:gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
             android:alpha="0.6"/>
 
@@ -44,24 +44,17 @@
             android:alpha="0.7"
             android:fontFamily="sans-serif-light"/>
 
-        <FrameLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <Button
+            android:id="@+id/btnSurprise"
+            android:layout_width="160dp"
+            android:layout_height="56dp"
+            android:text="â¨ DescÃºbrela"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:backgroundTint="#e91e8c"
+            android:stateListAnimator="@null"
             android:layout_marginTop="48dp"
-            android:background="@drawable/btn_glow">
-
-            <Button
-                android:id="@+id/btnSurprise"
-                android:layout_width="160dp"
-                android:layout_height="56dp"
-                android:text="â¨ DescÃºbrela"
-                android:textColor="#ffffff"
-                android:textSize="16sp"
-                android:backgroundTint="#e91e8c"
-                android:stateListAnimator="@null"
-                android:elevation="12dp"/>
-
-        </FrameLayout>
+            android:elevation="12dp"/>
 
     </LinearLayout>
 
