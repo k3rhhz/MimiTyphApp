@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="â¡ â¡ â¡"
+            android:text="&#9825; &#9825; &#9825;"
             android:textColor="#ffb6c1"
             android:textSize="28sp"
             android:gravity="center"
@@ -36,7 +36,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Â¿Quieres saber quiÃ©n es la chica mÃ¡s hermosa del mundo?"
+            android:text="&#191;Quieres saber qui&#233;n es la chica m&#225;s hermosa del mundo?"
             android:textColor="#ffb6c1"
             android:textSize="13sp"
             android:gravity="center"
@@ -48,7 +48,7 @@
             android:id="@+id/btnSurprise"
             android:layout_width="160dp"
             android:layout_height="56dp"
-            android:text="â¨ DescÃºbrela"
+            android:text="Descubrela"
             android:textColor="#ffffff"
             android:textSize="16sp"
             android:backgroundTint="#e91e8c"
@@ -87,7 +87,7 @@
             android:id="@+id/textShe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="She is â¡"
+            android:text="She is"
             android:textColor="#ffffff"
             android:textSize="32sp"
             android:gravity="center"
@@ -99,7 +99,7 @@
             android:id="@+id/textSheSub"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ella es â¡"
+            android:text="Ella es"
             android:textColor="#ffb6c1"
             android:textSize="15sp"
             android:gravity="center"
@@ -117,4 +117,4 @@
 
     </LinearLayout>
 
-</
+</FrameLayout>
