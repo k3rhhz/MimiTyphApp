@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace "com.k3rhhz.mimityph"
     compileSdkVersion 34
     defaultConfig {
         applicationId "com.k3rhhz.mimityph"
