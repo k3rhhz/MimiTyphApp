@@ -3,6 +3,7 @@
     package="com.k3rhhz.mimityph">
 
     <application
+        android:icon="@drawable/ic_launcher"
         android:allowBackup="true"
         android:label="MimiTyph"
         android:theme="@style/Theme.App">
